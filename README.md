@@ -35,7 +35,8 @@ _Note: this project leverages Bootstrap 4.3.1_
 
 ## Known Bugs
 
-No known at present.
+* I'm using the append method to display the results, because of this a subsequent form entry continues to append to the results rather then resetting and only showing the most resent results.
+* In the HTML I'd like to have the background color in the leftmost column extend to the bottom edge of the page.
 
 ## Support and contact details
 
