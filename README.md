@@ -2,17 +2,11 @@
 
 #### An project to practice looping and arrays, 6/21/19_
 
-#### By Craig Hutler_
+#### By Craig Hutler
 
 ## Description
 
 This is an independant project for the Epicodus "Intro to Programming" Evening Track. This project focuses on our ablity to use Javascript arrays and looping to solve a practice problem. 
-
-## Setup/Installation Requirements
-
-Place index.html file in webhost root Transfer CSS and JS directories
-
-_Note: this project leverages Bootstrap 4.3.1_
 
 ## Specifications
 
@@ -27,7 +21,13 @@ _Note: this project leverages Bootstrap 4.3.1_
   * Example Output: [1, 2, ping, 4, pong] 
 * It will replace numbers divisible by 15 are replaced with "pingpong"
   * Example Input: 15
-  * Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]       
+  * Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong] 
+
+## Setup/Installation Requirements
+
+Place index.html file in webhost root Transfer CSS and JS directories
+
+_Note: this project leverages Bootstrap 4.3.1_        
 
 ## Link to site on GitHub Pages
 
