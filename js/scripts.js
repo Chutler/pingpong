@@ -18,16 +18,15 @@ function pingPong(inputNumber) {
   
   // User Interface Logic
   $(document).ready(function() {
-    $('form#pong').submit(function(event) {
-      var inputNumber = $('#inputNumber').val();
+    $("form#pong").submit(function(event) {
+      $("#results").empty();                    // clears out the results div on a subsequent submit - this was a hail mary
+      var inputNumber = $("#inputNumber").val();
       var output = pingPong(inputNumber);       // calls the function and returns the resulting array
-    //   console.log(output) 
       output.forEach(function(value) {          // write the list of elements to the dom
-        $('#results').append("<li>" + value + "</li>");
+        $("#results").append("<li>" + value + "</li>");
       });
       event.preventDefault();
     });
   });
 
-  // Using anything other than the append method will not return a list.
-  // That also means that submitting another number adds to the output rather than resetting.
+
